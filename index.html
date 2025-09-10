@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="first">
+      <div class="header">
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="logo">
+          <img src="./images.png" alt="Logo" />
+        </div>
+
+        <div class="home" id="nav-links">
+          <a href="#">Home</a>
+          <a href="#about-me">About</a>
+          <a href="#project">My projects</a>
+          <a href="#contacts">Contact</a>
+        </div>
+
+        <div class="header-button">
+          <a href="#contacts">Hire Me</a>
+        </div>
+      </div>
+
+      <div class="my-details">
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/jackline-kibiwott-88a924337/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://www.facebook.com/jackline.biwott.77"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@jackywebdev"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+        </div>
+        <div class="name">
+          <h1 id="typewriter">I'M WEB DEVELOPER</h1>
+          <!-- <h1>JACKLINE KIBIWOT</h1> -->
+          <p>
+            I am a professional web developer, who designs, build and maintain
+
+            <br />websites using technologies like HTML, CSS and JAVASCRIPT
+          </p>
+
+          <a href="#service">Learn More</a>
+        </div>
+        <div class="profile">
+          <img src="./profile.jpg.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <a href="resume.html" class="download-btn">View My Résumé</a>
+
+    <section class="about" id="about-me">
+      <div>
+        <h1>About Me</h1>
+        <p>
+          Hi, I'm <strong>Jackline </strong>, a passionate front-end
+          developer<br />
+          who loves turning ideas into interactive and visually stunning
+          websites.
+        </p>
+      </div>
+      <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">Node.js</div>
+          <div class="skill-card">Express</div>
+          <div class="skill-card">MySQL</div>
+        </div>
+      </section>
+      <a href="#contacts"> <button class="bw-button">Contact Me</button></a>
+    </section>
+    <section class="services" id="service">
+      <h1>My Services</h1>
+      <p>Here’s what I can do for you as a web developer.</p>
+
+      <div class="service-container">
+        <div class="service-box">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Web Development</h3>
+          <p>
+            I create responsive, high-performance websites using modern web
+            technologies.
+          </p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-paint-brush"></i>
+          <h3>UI/UX Design</h3>
+          <p>
+            Designing visually appealing and user-friendly interfaces that
+            enhance user experience.
+          </p>
+        </div>
+        <div class="service-box">
+          <i class="fa-solid fa-mobile-screen"></i>
+          <h3>Mobile Optimization</h3>
+          <p>
+            Ensuring websites are fully optimized for mobile devices and
+            different screen sizes.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="project">
+      <!-- I will upload the projects later -->
+      <h1>My Projects</h1>
+      <p>Complete AgroAI Website</p>
+
+      <div class="project-container">
+        <div class="project-box">
+          <img src="./project1.png" alt="Project 1" />
+          <h3>AgroAI Website</h3>
+          <p>
+            An AI powered agrovet to help farmers moniter their crops and
+            livestock at their suitable splaces.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contacts">
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out for collaborations or any inquiries.</p>
+
+      <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="info-box">
+            <i class="fa-solid fa-envelope"></i>
+            <p>
+              Email:
+              <a href="mailto:biwottjackline72@gmail.com"
+                >biwottjackline72@gmail.com</a
+              >
+            </p>
+          </div>
+          <div class="info-box">
+            <i class="fa-solid fa-phone"></i>
+            <p>Phone: <a href="tel:+254725875650">+254725875650</a></p>
+          </div>
+          <div class="info-box">
+            <i class="fa-solid fa-map-marker-alt"></i>
+            <p>Location: Eldoret, Kenya</p>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
